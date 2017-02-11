@@ -62,7 +62,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             // アイテムと衝突した
             print("ScoreUpbyItem")
             //音楽ファイル
-            let mySoundAction: SKAction = SKAction.playSoundFileNamed("get_item", waitForCompletion: true)
+            let mySoundAction: SKAction = SKAction.playSoundFileNamed("get_item.mp3", waitForCompletion: true)
             self.run(mySoundAction)
             score_item += 1
             itemNode.removeAllChildren()

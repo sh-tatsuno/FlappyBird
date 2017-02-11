@@ -14,6 +14,7 @@
 		CA7808721E4078D20064FCFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7808701E4078D20064FCFF /* LaunchScreen.storyboard */; };
 		CA78087B1E4079650064FCFF /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA78087A1E4079650064FCFF /* SpriteKit.framework */; };
 		CA78087D1E4423100064FCFF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78087C1E4423100064FCFF /* GameScene.swift */; };
+		CA78087F1E4EE58D0064FCFF /* get_item.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA78087E1E4EE58D0064FCFF /* get_item.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CA7808731E4078D20064FCFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA78087A1E4079650064FCFF /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		CA78087C1E4423100064FCFF /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CA78087E1E4EE58D0064FCFF /* get_item.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = get_item.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				CA78087C1E4423100064FCFF /* GameScene.swift */,
 				CA7808701E4078D20064FCFF /* LaunchScreen.storyboard */,
 				CA7808731E4078D20064FCFF /* Info.plist */,
+				CA78087E1E4EE58D0064FCFF /* get_item.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA78087F1E4EE58D0064FCFF /* get_item.mp3 in Resources */,
 				CA7808721E4078D20064FCFF /* LaunchScreen.storyboard in Resources */,
 				CA78086F1E4078D20064FCFF /* Assets.xcassets in Resources */,
 				CA78086D1E4078D20064FCFF /* Main.storyboard in Resources */,
